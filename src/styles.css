@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+   background-color: #b42323;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1.5rem;
+    background-color: 	#ff8800;
+    height: 4rem;
+}
+
+nav button {
+    background-color: #ef4444;
+    font-size: 1.2rem;
+    height: 3.5rem;
+    width: 6rem;
+    border-radius: 0.7rem;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+#content {
+    width: 50rem;
+    height: 100%;
+    margin: auto;
+    background-color: #f1d0a2;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding-top: 2rem;
+    margin-top: 1.3rem;
+}
+
+.home-content h1 {
+    color: green;
+}
+
+.restaurant-description {
+    font-size: 1.4rem;
+    width: 40rem;
+    text-align: justify;
+}   
+
+.menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 1.3rem;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pizza-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    width: 35rem;
+    height: 9rem;
+    border-radius: 2rem;
+    background-color: #ee9a09;
+}
+
+.pizza-text-container {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+
+.description-text {
+    font-size: 1.3rem;
+}
+
+.ingredients-text {
+    font-size: 0.8rem;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4.3rem;
+    margin-top: 2rem;
+}
+
+.contact-location-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #840f0f;
+    width: 30rem;
+    height: 10rem;
+    border-radius: 5rem;
+    padding-left: 5rem;
+    padding-top: 1.4rem;
+    margin-bottom: 0.6rem;
+}
+

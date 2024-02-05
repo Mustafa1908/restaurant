@@ -1,0 +1,19 @@
+function createNavBar() {
+        let navbar = document.querySelector("nav");
+
+
+        let home = document.createElement("button");
+        home.className = "home";
+        let menu = document.createElement("button");
+        menu.className = "menu";
+        let contact = document.createElement("button");
+        contact.className = "contact";
+        home.innerText = "Home";
+        menu.innerText = "Menu";
+        contact.innerText = "Contact";
+        navbar.appendChild(home);
+        navbar.appendChild(menu);
+        navbar.appendChild(contact);
+}
+
+export default createNavBar
